@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Features from './Features';
 import Beta from './Beta';
 import "./App.css";
+import Video from './Video';
 
 function App() {
   useEffect(() => {
@@ -13,7 +14,9 @@ function App() {
     <div>
       <BrowserRouter>
         <Navbar/>
+        <Video/>
         <Features/>
+        <br/>
         <Beta/>
       </BrowserRouter>
     </div>

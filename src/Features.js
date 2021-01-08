@@ -4,10 +4,7 @@ import "./Features.css"
 function Features() {
     return (
         <div className="features">
-            <br/>
-            <br/>
-            <br/>
-            <div className="features-title" id="/">Features</div>
+            <div className="features-title" id="/features">Features</div>
 
             <div className="features-container">
                 <div className="features-description-red">
