@@ -1,10 +1,5 @@
 export const NavItems = [
     {
-        title: "Video",
-        url: "/",
-        cName: "nav-links",
-    },
-    {
         title: "Features",
         url: "/features",
         cName: "nav-links",
