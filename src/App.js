@@ -3,14 +3,15 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Features from './Features';
 import Beta from './Beta';
+import "./App.css";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
-        <Route exact path="/" component={Features} />
-        <Route path="/beta" component={Beta} />
+        <Navbar/>
+        <Features/>
+        <Beta/>
       </BrowserRouter>
     </div>
   );

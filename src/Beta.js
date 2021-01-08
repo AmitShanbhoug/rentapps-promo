@@ -4,7 +4,7 @@ import "./Beta.css"
 function Beta() {
     return (
         <div className="beta-container">
-            <div className="beta-title">Beta</div>
+            <div className="beta-title" id="/beta">Beta</div>
 
             <div className="beta-signup">Sign up to receive early access</div>
 

@@ -1,3 +1,8 @@
+.features {
+    position: relative;
+    top: 100px;
+}
+
 .features-title {
     font-family: Open Sans;
     font-style: normal;

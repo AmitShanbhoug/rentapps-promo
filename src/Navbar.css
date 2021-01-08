@@ -1,12 +1,19 @@
+.navbar {
+    position: fixed;
+    top: -10px;
+    background:white;
+    z-index: 1;
+}
+
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5,auto);
-    grid-gap: 10px;
+    grid-gap: 20px;
     list-style: none;
     text-align: center;
     width: 90vw;
     justify-content: end;
-    margin-right: 20rem; /*Changed margin-right from 2rem*/
+    margin-right: 20rem; /*Changed margin-right from 2rem */
     cursor: pointer;
 }
 
