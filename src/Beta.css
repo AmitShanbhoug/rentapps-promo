@@ -1,0 +1,69 @@
+.beta-container {
+    margin: 20px;
+    background: linear-gradient(180deg, rgba(214, 67, 67, 0.3) 30.32%, rgba(128, 213, 211, 0) 100%);
+}
+
+.beta-title {
+    text-align: center;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 65px;
+    
+    color: #000000;
+}
+
+.beta-signup {
+    text-align: center;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    margin: 100px;
+    
+    color: #161515;
+}
+
+.beta-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 30px;
+}
+
+.beta-input {
+    background: rgba(143, 155, 221, 0.32);
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+
+    width: 407px;
+    height: 65px;
+
+    margin: auto;
+
+}
+
+.beta-signup-button {
+    background: #7481C4;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+
+    width: 406px;
+    height: 70px;
+
+    margin: auto;
+}
