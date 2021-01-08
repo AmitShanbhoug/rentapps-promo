@@ -1,0 +1,31 @@
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 90vw;
+    justify-content: end;
+    margin-right: 20rem; /*Changed margin-right from 2rem*/
+    cursor: pointer;
+}
+
+.nav-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 95px;
+    
+    color: #000000;
+}
+
+.nav-links {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    
+    color: #000000;
+}
