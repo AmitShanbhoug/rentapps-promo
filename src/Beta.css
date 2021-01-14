@@ -11,9 +11,9 @@
   background: #ccc;}*/
 
 .beta-container {
-    margin: -70px; /*NOT TOO SURE WHAT THIS DOES EXACTLY LOL BUT IT ADJUSTS SOMETHING FOR SURE*/
+    /* margin: -70px; NOT TOO SURE WHAT THIS DOES EXACTLY LOL BUT IT ADJUSTS SOMETHING FOR SURE */
     /*background: linear-gradient(180deg, rgba(214, 67, 67, 0.3) 30.32%, rgba(128, 213, 211, 0) 100%);*/
-    background: #EFEFEF
+    background: #EFEFEF;
 }
 
 .beta-signup {

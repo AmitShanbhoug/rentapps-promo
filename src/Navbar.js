@@ -9,7 +9,7 @@ function Navbar() {
             <ul className='nav-menu'>
                 {NavItems.map((item,index) => {
                     return (
-                        <li className={item.cName} key={index}>
+                        <li className={ (!(index==0)) ? item.cName : "nav-title" } key={index}>
                             <Link
                                 activeClass="active"
                                 to={item.url}

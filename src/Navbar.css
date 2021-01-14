@@ -1,11 +1,22 @@
 .navbar {
     position: fixed;
+    /* width: 150%; */
     top: -10px;
     background:white;
     z-index: 1;
     border-bottom: 2.5px solid #000000;
     background-color: #dec9c8;
+    right: -5px;
     /*border-color: #000000; unecessary due to border-bottom*/
+}
+
+.nav-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
 }
 
 .nav-menu {
