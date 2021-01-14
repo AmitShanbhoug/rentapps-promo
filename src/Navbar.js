@@ -11,14 +11,14 @@ function Navbar() {
                 {NavItems.map((item,index) => {
                     return (
                         <li className={item.cName} key={index}>
-                            <Link 
+                            <Link
                                 activeClass="active"
-                                to={item.url} 
-                                smooth={true} 
-                                spy={true} 
+                                to={item.url}
+                                smooth={true}
+                                spy={true}
                                 offset={-150}
                                 duration={500}
-                                
+
                             >{item.title}</Link>
                             <div></div>
                         </li>

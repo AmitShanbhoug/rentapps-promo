@@ -1,18 +1,27 @@
+.beta-title {
+  @apply text-5xl text-center text-black not-italic;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 65px;
+  margin-top: auto;
+  margin-left: 50vw;
+  transform: translate(-25%);
+}
+/*.container {border: 2px solid #000; position: relative; min-height: 250px; width: 250px; margin: 100px auto;}
+.container.header{
+  position: absolute; b
+  order: 2px solid #000;
+  background-color: #fff;
+  width: 50%;
+  text-align: center;
+  left: 25%;
+  top: -40px;
+  background: #ccc;}*/
+
 .beta-container {
     margin: 100px;
     background: linear-gradient(180deg, rgba(214, 67, 67, 0.3) 30.32%, rgba(128, 213, 211, 0) 100%);
-}
-
-.beta-title {
-    text-align: center;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 65px;
-    
-    color: #000000;
 }
 
 .beta-signup {
@@ -25,7 +34,7 @@
     line-height: 49px;
 
     margin: 100px;
-    
+
     color: #161515;
 }
 
@@ -34,8 +43,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    margin: 30px;
+    width: 406px; /*width of the email input box*/
+    margin-left: 50vw;
+    transform: translate(125%); /*this centers both the email input & sign up boxes horizontally*/
+    margin: 130px;
 }
 
 .beta-input {
@@ -47,12 +58,13 @@
     font-size: 36px;
     line-height: 49px;
 
-    width: 407px;
+    width: 40px;
     height: 65px;
 
     margin: auto;
 
 }
+
 
 .beta-signup-button {
     background: #7481C4;

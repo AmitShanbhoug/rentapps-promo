@@ -1,4 +1,5 @@
 export const NavItems = [
+
     {
         title: "Features",
         url: "/features",

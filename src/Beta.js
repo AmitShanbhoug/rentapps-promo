@@ -1,15 +1,13 @@
 import React from 'react'
+import TextField from '@material-ui/core/TextField';
 import "./Beta.css"
 
 function Beta() {
     return (
         <div className="beta-container">
-            <div className="beta-title" id="/beta">Beta</div>
-
-            <div className="beta-signup">Sign up to receive early access</div>
-
+            <div className="beta-signup">Sign up to receive early access!</div>
             <div className="beta-form">
-                <input title="Email Address" className="beta-input"/>
+            < TextField id="filled-search" label="Email Address" type="Email" variant="outlined" />
                 <button className="beta-signup-button">Sign up</button>
             </div>
         </div>
