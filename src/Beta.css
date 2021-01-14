@@ -1,13 +1,4 @@
-.beta-title {
-  @apply text-5xl text-center text-black not-italic;
-  font-family: Open Sans;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 65px;
-  margin-top: auto;
-  margin-left: 50vw;
-  transform: translate(-25%);
-}
+
 /*.container {border: 2px solid #000; position: relative; min-height: 250px; width: 250px; margin: 100px auto;}
 .container.header{
   position: absolute; b
@@ -20,62 +11,55 @@
   background: #ccc;}*/
 
 .beta-container {
-    margin: 100px;
-    background: linear-gradient(180deg, rgba(214, 67, 67, 0.3) 30.32%, rgba(128, 213, 211, 0) 100%);
+    margin: -70px; /*NOT TOO SURE WHAT THIS DOES EXACTLY LOL BUT IT ADJUSTS SOMETHING FOR SURE*/
+    /*background: linear-gradient(180deg, rgba(214, 67, 67, 0.3) 30.32%, rgba(128, 213, 211, 0) 100%);*/
+    background: #EFEFEF
 }
 
 .beta-signup {
     text-align: center;
-
     font-family: Open Sans;
     font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 49px;
-
-    margin: 100px;
-
-    color: #161515;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 60px;
+    transform: translateY(130%); /*THIS VERTICALLY ADJUSTS THE WORD "SIGN UP FOR..." */
+    color: #161515; /*color of "Sign up for early access"*/
 }
 
 .beta-form {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 406px; /*width of the email input box*/
-    margin-left: 50vw;
-    transform: translate(125%); /*this centers both the email input & sign up boxes horizontally*/
+    /*justify-content: space-between;*/ /*DONT THINK THIS IS NEEDED RN*/
+    width: 390px; /*width of the email input box*/
+    margin-left: 1000vw;
+    transform: translate(125%,-20%); /*THIS VERTICALLY & HORIZONTALLY ADJUSTS THE EMAIL & SIGN UP" */
     margin: 130px;
 }
 
 .beta-input {
-    background: rgba(143, 155, 221, 0.32);
-
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 49px;
-
     width: 40px;
-    height: 65px;
-
+    height: 95px;
     margin: auto;
 
 }
 
-
 .beta-signup-button {
-    background: #7481C4;
+    background: #76323F;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 49px;
-
-    width: 406px;
-    height: 70px;
-
+    font-size: 25px;
+    color:white;
+    line-height: 55px;
+    width: 300px;
+    height: 60px;
     margin: auto;
 }

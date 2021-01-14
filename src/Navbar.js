@@ -6,7 +6,6 @@ import {Link, animateScroll as scroll} from "react-scroll"
 function Navbar() {
     return (
         <nav className='navbar'>
-            <div className="nav-title">RentApps</div>
             <ul className='nav-menu'>
                 {NavItems.map((item,index) => {
                     return (

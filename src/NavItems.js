@@ -1,6 +1,13 @@
 export const NavItems = [
 
     {
+        title: "RentApps2.0",
+        url: "/contactUs",
+        cName: "nav-links",
+
+    },
+
+    {
         title: "Features",
         url: "/features",
         cName: "nav-links",

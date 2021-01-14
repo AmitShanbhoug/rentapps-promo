@@ -1,50 +1,59 @@
 .features {
     position: relative;
-    top: 110px;
+    top: 100px;
 }
 
-.features-title {
+.features-container {
+    display: flex;
+    margin: 150px; /*this is the width between the page and the features container*/
+    height: 400px;/*height of the renters description container box*/
+}
+
+.features-title { /*FORMATS THE SECTION TITLE "FEATURES" */
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 65px;
     text-align: center;
     color: #000000;
 }
 
-.features-container {
-    display: flex;
-    margin: 80px;
-    height: 400px;/*height of the renters container box*/
-}
-
-.features-description-red {
-    background: #CC4555;
+.features-description-red { /*EDITS THE RENTERS DESCRIPTION BOX*/
+    background: #FF3B3F;
     flex-direction: row;
     flex: 15;
     height: 400px;
-
+    transform: translateY(-10%); /*move renter description container vertically*/
 }
 
-.features-description-orange {
+.features-description-orange { /*EDITS THE LANDLORDS DESCRIPTION BOX*/
     background: #EB9A60;
     flex-direction: row;
     flex: 4;
-    height: 300px;
+    height: 301.5px;
+    transform: translateY(-63.3%);
 }
 
-.features-renters {  /*the landlords box*/
+.features-renters {  /*THE "RENTERS" BOX*/
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.92);
     flex-direction: row;
     flex: 1;
-    height: 300px;
-
+    height: 400px;
+    transform: translateY(-10%); /*VERTICALLY ADJUST POSITION OF "RENTERS" BOX*/
 }
-
-.features-renters-title {
+.features-landlords {  /*THE "LANDLORDS" BOX.*/ /*I changed it in the JS and added it here as well, to easily adjust both boxes separately <3*/
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.92);
+    flex-direction: row;
+    flex: 1;
+    height: 301px; /*ADJUSTS THE SIZE OF THE "LANDLORDS" BOX*/
+    transform: translateY(-63.2%); /*VERTICALLY ADJUST POSITION OF "RENTERS" BOX*/
+}
+.features-renters-title { /*EDITS THE "RENTERS" WORD*/
     font-family: Barlow;
     font-style: normal;
     font-weight: bold;
@@ -54,24 +63,31 @@
     margin: auto;
 }
 
-.features-subtitle {
+.features-landlords-title { /*EDITS THE "LANDLORDS" WORD*/
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    color: #00DDDD;
+    margin: auto;
+}
+
+.features-subtitle { /*EDTS THE DESCRIPTION MAIN PHRASE "ONE APPLICATION..."*/
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 65px;
-
     color: #000000;
     margin: auto;
 }
 
-.features-subtext {
+.features-subtext { /*EDTS THE DESCRIPTION SUB PHRASE "WITH ONE APPLICATION..."*/
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 37px;
+    font-size: 25px;
     line-height: 50px;
-
     color: #FFFFFF;
     margin: auto;
 }

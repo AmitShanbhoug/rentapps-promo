@@ -16,12 +16,18 @@ function Video() {
             <br/>
             <br/>
             <br/>
+            <br/>
             <div className="video-title" id="/">Renting Simplified</div>
-            <ReactPlayer 
-                url="https://www.youtube.com/watch?v=3JxPII7hEM0" 
-                controls={true} 
-                width={1280*0.75} 
-                height={720*0.75}
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <ReactPlayer
+                url="https://www.youtube.com/watch?v=3JxPII7hEM0"
+                controls={true}
+                width={900*0.75}
+                height={600*0.75}
             />
         </div>
     )
